@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Pokemon Choose Your Own Adventure
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Pokemon Choose Your Own Adventure</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <strong>Welcome to Choose Your Own Adventure: Pokemon Edition</strong>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ion-button color="danger" routerLink="/game">Play</ion-button>
+        </div>
+        <div class="col">
+          <ion-button color="danger" routerLink="/options">Options</ion-button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
