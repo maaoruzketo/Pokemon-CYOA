@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>game</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center px-6 mx-6"><strong>{{displayScene?.scene}}</strong></div>
+    <div class="row">
+      <div class="col d-flex justify-content-center px-6 mx-6">
+        <ion-button color="danger" (click) = 'nextScene(displayScene.pChoice1)'>{{displayScene?.choice1}}</ion-button>
+      </div>
+      <div class="col d-flex justify-content-center px-6 mx-6">
+        <ion-button color="danger" (click) = 'nextScene(displayScene.pChoice2)'>{{displayScene?.choice2}}</ion-button>
+      </div>
+    </div>
+  </div>
+</ion-content>
